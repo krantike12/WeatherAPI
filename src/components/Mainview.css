@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+}
+
+.card{
+    position: relative;
+    top: 10%;
+    left: 38.4%;
+    width: 25%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(3, 57, 253, 0.053);
+    height: auto;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts{
+    font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 460px) {
+.form-control{
+    width: 200px;
+   
+}
+.container{
+    position: absolute;
+    margin-left: 80px;
+}
+
+.card{
+    width : 95%;
+    position: relative;
+    margin-left: -148px;
+    height : 300px
+
+}
+.card .texts{
+    font-size: 25px;
+    
+}
+
+.controls{
+    margin-left: -10px;
+}
+}
